@@ -6,8 +6,6 @@
     var myFunction;
     var myFunction2;
     var myFunction3;
-    // myFunction = 10;
-    // console.log(myFunction);
     myFunction = addNumbers;
     console.log(myFunction(1, 2));
     myFunction2 = greet;

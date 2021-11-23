@@ -6,3 +6,4 @@
     var villanos = ['Omega Rojo', 'Dormammu', 'Duende Verde'];
     villanos.forEach(function (v) { return console.log(v.toUpperCase()); });
 })();
+//# sourceMappingURL=arrays.js.map

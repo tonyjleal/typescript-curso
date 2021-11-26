@@ -3,7 +3,7 @@
     interface Xmen {
         name: string,
         realName: string,
-        mutantPower(id: number): string,
+        mutantPower?(id: number): string,
     }
 
     interface Human {
@@ -18,7 +18,7 @@
         ){}
             
 
-        mutanPower(id: number) {
+        public mutanPower(id: number) {
             return this.name.concat(this.realName);
         }
     }

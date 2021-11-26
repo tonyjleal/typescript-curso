@@ -102,6 +102,6 @@
     "folder_to_exclude/*.ts"
   ],
   "include": [
-    "interfaces"
+    "namespaces"
   ]
 }
